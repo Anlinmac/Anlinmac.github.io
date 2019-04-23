@@ -7,26 +7,27 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>About Me</title>
+    <title>Contact</title>
+
   </head>
   <body>
-     <header> 
-         <div class="d-flex flex-column bg-light">    
-            <nav class="navbar container p-0 navbar-expand-lg navbar-light">
-                <a class="navbar-brand text-white" href="index.html">Ann</a>
+    <header>
+        <div class="d-flex flex-column bg-light">    
+            <nav class="navbar container p-0 navbar-expand-lg navbar-light ">
+                    <a class="navbar-brand text-white" href="index.html">Ann</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
             
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item nav-border active">
+                            <li class="nav-item">
                             <a class="nav-link" href="index.html">About</a>
                             </li>
-                            <li class="nav-item nav-border ">
+                            <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Porfolio</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                             <a class="nav-link" href="contact.html">Contact</a>
                             </li>
                         </ul>
@@ -35,29 +36,33 @@
         </div>
     </header>
 
-   <div class="main-section content-box">
-        <div class="container my-4 pb-3 bg-light ">
-            <div class="row">
-                <div class="col-md-12 mt-4 text-color">
-                    <h2>About Me</h2>
-                </div>
-            </div>
-
-            <hr class="w-100">
-
-            <div class="row">
-                    <div class="col-lg-2 col-md-12 col-sm-12 col-12 mb-3">
-                            <img src="assets/images /IMG_7705sm.jpeg" class="img-fluid img-responsive float-left w-100" alt="...">
-                        <!-- <img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg" alt=""> -->
-                        
+    <div class="main-section content-box">
+            <div class="container my-4">
+                    <div class="row">
+                        <div class="col-md-12 mt-4 text-color">
+                            <h2>Contact</h2>
+                        </div>
                     </div>
-                    <div class="col-lg-10 col-md-12 col-sm-12 col-12">
-                            <p>Hi, my name is Chayaphon MacMillan, but you can call me Ann.  I have a bachelor's degree in Education. I recently a student at a coding boot camp at the University of Pennsylvania where I developed the full stack web applications from mockup to deployment.  I have the ability to develop applications from the design to server-side.  I'm ready to get my foot in the door and grow within a company to learn good standards and practices that will help my professional development.  Ultimately, I want to grow within a company to eventually become a Senior Full Stack Web Developer. I'm currently working on a new website project for an Architecture company as a freelance developer.
 
-                            </p>
-                    </div>
+                    <hr class="w-100">
+
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Email</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Message</label>
+                            <textarea type="text" class="form-control span9" id="formGroupExampleInput2" placeholder="Type your message here....."></textarea>
+                        </div>
+                    </form>  
+
+                    <button type="button" class="btn submitBtn ">Submit</button>
             </div>
-        </div>
     </div>
 
     <footer class="footer">
@@ -65,7 +70,6 @@
             Copyright
         </div>
     </footer>
-  
  
 
     <!-- Optional JavaScript -->

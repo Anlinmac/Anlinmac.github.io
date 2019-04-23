@@ -1,0 +1,77 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
+    background-image: url(" ");
+  }
+  header{
+    border-bottom: 1px solid lightgray;
+  }
+  .text-white{
+      font-size: 45px;
+      /* font-family: 'Slabo 27px', serif; */
+  }
+  .text-color{
+    color: #4aaaa5;
+  }
+
+  .navbar-brand{
+     background: #4aaaa5;
+     padding: 0 40px;
+  } 
+ 
+  /* h2{
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+  } */
+
+  .main-section{
+      margin-bottom: 50px;
+  }
+
+  .content-box{
+    padding-bottom: 40px;
+  
+  }
+  .navbar-collapse{
+      text-align: center;
+  }
+
+  textarea.span9{
+    height: 300px;
+    font-size:14px;
+    line-height:40px;
+  }
+  .text-background{
+    background: #4aaaa5;
+  }
+
+  .img-text{
+    bottom: 8;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 0;
+}
+.submitBtn{
+  background: #4aaaa5;
+  color: white;
+}
+ .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    background-color: lightgrey;
+    border-top: 2px solid #4aaaa5;
+    text-align: center;
+    
+ }
+ .footerP{
+   line-height: 3;
+ }
+
